@@ -17,6 +17,7 @@ Trackpad > Point & Click -> tap to click</br>
 Trackpad > More Gestures -> App Expose</br>
 Keyboard > Modify Keys > Caps Lock Key = Escape</br>
 Keyboard > Text > uncheck ( Correct spelling, Capitalize words, add period with double space</br>
+Dock & Menu Bar > Battery > Show Percentage </br>
 
 ## Bash Terminal
 
