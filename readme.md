@@ -95,3 +95,9 @@ function zle-keymap-select {
 ```shell
 xset r rate 250 45
 ```
+
+## Nagivation stats
+
+```shell
+brew install --cask stats
+```
