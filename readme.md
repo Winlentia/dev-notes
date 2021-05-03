@@ -40,7 +40,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 Optimized for macos and oh my zsh's zshrc</br>
 
 ```shell
-export ZSH="/Users/winlentia/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
