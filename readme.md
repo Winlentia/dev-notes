@@ -118,6 +118,9 @@ bindkey '^e' edit-command-line
 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\e[B' history-beginning-search-forward
+
 
 ```
 
