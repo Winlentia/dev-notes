@@ -124,6 +124,10 @@ bindkey '\e[B' history-beginning-search-forward
 
 ```
 
+### using vim in bash sample
+
+![](gifs/sv1.gif)
+
 ### Vim cursor speed // todo 
 .250 sec delay, 45 chars/sec</br>
 ```shell
