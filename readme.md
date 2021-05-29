@@ -36,6 +36,11 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 	echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
 
+### Tmux ( https://github.com/tmux/tmux/wiki )
+```shell
+	brew install tmux
+```
+
 ### Zshrc ( Learn from Luke Smith video https://www.youtube.com/watch?v=eLEo4OQ-cuQ )
 Optimized for macos and oh my zsh's zshrc</br>
 
