@@ -1,4 +1,6 @@
-essions </h2>
+<h1> Tmux </h1>
+
+<h2> Sessions </h2>
 
 creating new session 
 ```shell
