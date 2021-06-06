@@ -9,7 +9,6 @@
 ### Macos Setup
 ## Applications
 [back to top](#readme)
->>>>>>> 9f07225c9fde725c85cd14bf1339a2991676d796
 Chrome ( https://www.google.com/chrome/ )</br>
 Xcode ( https://developer.apple.com/download/more/?=xcode )</br>
 VSCode ( https://code.visualstudio.com/ )</br>
