@@ -1,4 +1,4 @@
-### Contents(#contents)
+### Contents
 
 - [Macos Setup](#macos-setup)
   - [Applications](#applications)
@@ -18,7 +18,7 @@ MagicPref ( http://magicprefs.com )</br>
 iTerm2 ( https://iterm2.com/ ) </br>
 
 ---
-
+#
 ### Configurations
 [back to top](#readme)
 
