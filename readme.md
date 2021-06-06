@@ -1,14 +1,14 @@
-### Contents
+### Contents(#contents)
 
-- [Macos Setup](#macos)
+- [Macos Setup](#macos-setup)
   - [Applications](#applications)
   - [Configurations](#configutrations)
-  - [Bash Terminal](#bash)
+  - [Bash Terminal](#bash-terminal)
 
 
 ### Macos Setup
 ## Applications
-[back to top](#macos)
+[back to top](#contents)
 Chrome ( https://www.google.com/chrome/ )</br>
 Xcode ( https://developer.apple.com/download/more/?=xcode )</br>
 VSCode ( https://code.visualstudio.com/ )</br>
