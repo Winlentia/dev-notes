@@ -1,14 +1,15 @@
-### Contents
+### Contents(#contents)
 
-- [Macos Setup](#macos)
+- [Macos Setup](#macos-setup)
   - [Applications](#applications)
-  - [Configurations](#configutrations)
-  - [Bash Terminal](#bash)
+  - [Configurations](#configurations)
+  - [Bash Terminal](#bash-terminal)
 
 
 ### Macos Setup
 ## Applications
 [back to top](#readme)
+>>>>>>> 9f07225c9fde725c85cd14bf1339a2991676d796
 Chrome ( https://www.google.com/chrome/ )</br>
 Xcode ( https://developer.apple.com/download/more/?=xcode )</br>
 VSCode ( https://code.visualstudio.com/ )</br>
@@ -28,7 +29,7 @@ Keyboard > Modify Keys > Caps Lock Key = Escape</br>
 Keyboard > Text > uncheck ( Correct spelling, Capitalize words, add period with double space</br>
 Dock & Menu Bar > Battery > Show Percentage </br>
 
-### Bash Terminal(#bash)
+### Bash Terminal
 [back to top](#readme)
 
 ### Brew ( https://brew.sh/index )
