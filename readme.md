@@ -2,7 +2,7 @@
 
 - [Macos Setup](#macos-setup)
   - [Applications](#applications)
-  - [Configurations](#configutrations)
+  - [Configurations](#configurations)
   - [Bash Terminal](#bash-terminal)
 
 
@@ -28,7 +28,7 @@ Keyboard > Modify Keys > Caps Lock Key = Escape</br>
 Keyboard > Text > uncheck ( Correct spelling, Capitalize words, add period with double space</br>
 Dock & Menu Bar > Battery > Show Percentage </br>
 
-### Bash Terminal(#bash)
+### Bash Terminal
 [back to top](#macos)
 
 ### Brew ( https://brew.sh/index )
