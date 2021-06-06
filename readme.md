@@ -6,9 +6,9 @@
   - [Bash Terminal](#bash-terminal)
 
 
-### Macos Setup
-## Applications
-[back to top](#readme)
+## Macos Setup
+### Applications
+[back to top](#readme)</br>
 Chrome ( https://www.google.com/chrome/ )</br>
 Xcode ( https://developer.apple.com/download/more/?=xcode )</br>
 VSCode ( https://code.visualstudio.com/ )</br>
