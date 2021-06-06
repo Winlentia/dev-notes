@@ -1,6 +1,15 @@
-# macos setup
-## Applications
+### Contents
 
+- [macos-setup](#macos)
+  - [Applications](#applications)
+  - [Configurations](#configutrations)
+  - [Bash Terminal](#bash)
+
+
+### Macos-Setup
+[back to top](#macos)
+## Applications
+[back to top](#applications)
 Chrome ( https://www.google.com/chrome/ )</br>
 Xcode ( https://developer.apple.com/download/more/?=xcode )</br>
 VSCode ( https://code.visualstudio.com/ )</br>
@@ -11,7 +20,8 @@ iTerm2 ( https://iterm2.com/ ) </br>
 
 ---
 
-## Configurations
+### Configurations
+[back to top](#configurations)
 
 Trackpad > Point & Click -> tap to click</br>
 Trackpad > More Gestures -> App Expose</br>
@@ -19,7 +29,8 @@ Keyboard > Modify Keys > Caps Lock Key = Escape</br>
 Keyboard > Text > uncheck ( Correct spelling, Capitalize words, add period with double space</br>
 Dock & Menu Bar > Battery > Show Percentage </br>
 
-## Bash Terminal
+### Bash Terminal
+[back to top](#bash)
 
 ### Brew ( https://brew.sh/index )
 ```shell
