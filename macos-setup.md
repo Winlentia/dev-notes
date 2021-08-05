@@ -43,6 +43,11 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 ```shell
 	brew install tmux
 ```
+
+### Stats - NavigationBar computer stats ( https://github.com/exelban/stats )
+```shell
+	brew install --cask stats
+```
 ---
 
 ### Zshrc ( Learn from Luke Smith video https://www.youtube.com/watch?v=eLEo4OQ-cuQ )
