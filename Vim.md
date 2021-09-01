@@ -76,6 +76,10 @@ I -> enter insert mode in beggining of line
 
 A -> enter insert mode at the end of line
 
+o -> insert mode with new bottom-line 
+
+O -> insert mode with new upper-line
+
 ## REPEAT:
 
 . -> repets the last thing you do.
