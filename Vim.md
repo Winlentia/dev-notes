@@ -107,7 +107,10 @@ ctrl+r for redo
 
 ## f and t (find & till)
 
+sample1:
 git commit -m "JiraId:4321 message: this is sample message. tag:VimEditor,VimCourse"
+
+sample2: create new alias.
 
 cf. 
 
