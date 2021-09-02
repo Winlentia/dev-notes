@@ -58,6 +58,10 @@ $ -> end
 
 0 -> beginning
 
+GG -> move cursor to top
+
+g -> move cursor to bottom 
+
 ## Operators:
 
 c-> change
