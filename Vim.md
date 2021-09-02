@@ -1,12 +1,12 @@
 ## Vim
 
-vim is basicly a text editor to help us manipulate text faster ( you can handle everything with shortcuts. )
+vim is a text editor to help us manipulate text faster ( you can handle everything with shortcuts. )
 
 ``` bash
 $vim test.txt
 ```
 
-this commend creates test.txt file in current directory ( if you save and quit from vim :) )
+this command opens test.txt file if exists. Otherwise, it creates test.txt file in the current directory ( if you save and quit from vim :) )
 
 --------
 
@@ -15,7 +15,7 @@ There are 3 modes on vim
 | Modes       | what it is doing                                             | Key Shortcut            |
 | ----------- | ------------------------------------------------------------ | ----------------------- |
 | Normal Mode | Everything is shortcut                                       | esc                     |
-| Insert Mode | for editing file, Insert mode is same as normal text editing. | inNormal Mode press 'i' |
+| Insert Mode | for editing file, Insert mode is the same as normal text editing. | inNormal Mode press 'i' |
 | Visual Mode | For selecting and listing things.                            | inNormal Mode press 'v' |
 
 ## Exit vim
@@ -24,7 +24,7 @@ Most searched thing :)
 
 :wq -> write quit
 
-:q! -> force quit without save
+:q! -> force quit without saveing
 
 :w -> only write
 
@@ -34,11 +34,11 @@ ZQ -> same as :q!
 
 ---------
 
-Normal Mode: Everything is shortcut. 
+Normal Mode: Everything is a shortcut. 
 
 ## Insert Mode:
 
-press i for insert mode.
+Press i for insert mode.
 
 a-> rightside
 
@@ -68,15 +68,19 @@ c-> change
 
 d->delete
 
+y->yank
+
+p->paste
+
 x->char delete
 
 ``` bash
 :d3w
 ```
 
-## Advence entering insert mode
+## Advance entering insert mode
 
-I -> enter insert mode in beggining of line
+I -> enter insert mode in beginning of line
 
 A -> enter insert mode at the end of line
 
@@ -86,7 +90,7 @@ O -> insert mode with new upper-line
 
 ## REPEAT:
 
-. -> repets the last thing you do.
+. -> repeats  the last thing you do.
 
 ## Around, inside:
 
