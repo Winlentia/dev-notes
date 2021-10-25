@@ -98,3 +98,19 @@ echo  "export TERM=xterm-256color" >> ~/.zshrc
 exec zsh
 ```
 
+
+----------------------------------- 
+Tmux config
+```bsah
+set-window-option -g mode-keys vi
+bind -T copy-mode-vi v send-keys -X begin-selection
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
+
+# vim-like pane switching
+bind -r ^ last-window
+bind -r k select-pane -U
+bind -r j select-pane -D
+bind -r h select-pane -L
+bind -r l select-pane -R
+
+```
