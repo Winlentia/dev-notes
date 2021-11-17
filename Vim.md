@@ -130,5 +130,13 @@ y -> yank
 
 p -> paste
 
+## upper-case
+
+gUw -> makes the word all upper case
+gU2w -> makes the 2 word all upper case
+guw -> makes the word all lower case
+
+
+
 
 
