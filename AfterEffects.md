@@ -19,3 +19,10 @@
 <h2>Hold keyframe</h2>
 <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd>
 <br>
+
+
+FavoriteEffects:
+-CC Tiler
+-Displacement map
+-Twirl
+
