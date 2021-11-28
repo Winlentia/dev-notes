@@ -22,7 +22,11 @@
 
 
 FavoriteEffects:
--CC Tiler
--Displacement map
+<br>
+-CC Tiler ( zoom out pattern ) 
+-Displacement map 
 -Twirl
-
+-CC Kaleida
+-Glow
+-Roughen edges
+-CC Burn film
