@@ -32,10 +32,12 @@ Dock & Menu Bar > Battery > Show Percentage </br>
 ```
 ### OhMyZsh ( https://ohmyz.sh/#install ) 
 ```shell
+# move oh-my-zsh to ~/.config/
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ### ZshHighlighting ( https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md ) 
 ```shell
+	# clone that repo in ~/.config/ folder
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 	echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
@@ -54,7 +56,13 @@ $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/instal
 Optimized for macos and oh my zsh's zshrc</br>
 
 ```shell
-export ZSH="$HOME/.oh-my-zsh"
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/winlentia/.config/.oh-my-zsh"
+
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
@@ -130,7 +138,7 @@ bindkey -s '^o' 'lfcd\n'
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source .config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
