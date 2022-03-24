@@ -161,3 +161,8 @@ xset r rate 250 45
 ```shell
 brew install --cask stats
 ```
+## TheFuck
+
+```shell
+brew install thefuck
+```
