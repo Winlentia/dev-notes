@@ -38,6 +38,23 @@ sleep 5 ; echo "all done"
 # waits 5 seconds
 all done
 ```
+
+```shell
+$ false || echo "Oops, fail"
+Oops, fail
+
+$ true || echo "Will not be printed"
+$  
+
+$ true && echo "Things went well"
+Things went well
+
+$ false && echo "Will not be printed"
+$
+
+$ false ; echo "This will always run"
+This will always run
+```
 -------
 
 # Find file in current directory recursively
