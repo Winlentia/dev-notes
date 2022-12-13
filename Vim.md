@@ -138,8 +138,9 @@ guw -> makes the word all lower case
 
 ## run vim commands from bash
 
+```bash
 vim -c "normal! @p" filename -c wq
-
+```
 - this command opens the filename then in normal mode running the @p macro ( you can change here ) then quit the file with wq
 
 
