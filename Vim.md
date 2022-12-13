@@ -141,7 +141,14 @@ guw -> makes the word all lower case
 ```bash
 vim -c "normal! @p" filename -c wq
 ```
-- this command opens the filename then in normal mode running the @p macro ( you can change here ) then quit the file with wq
+this command opens the filename then in normal mode running the @p macro ( you can change here ) then quit the file with wq
+
+```bash
+vim -c "normal! A this is first line ending" filename
+```
+
+this script adding the " this is first line ending" text to end of the first line
+
 
 
 
