@@ -30,3 +30,5 @@ FavoriteEffects:
 -Glow
 -Roughen edges
 -CC Burn film
+
+#video-editing #after-effects #adobe

@@ -114,3 +114,5 @@ bind -r h select-pane -L
 bind -r l select-pane -R
 
 ```
+
+#bash #tmux

@@ -1,6 +1,7 @@
-# Logical operators
+# Logical operators 
 
-- <b>;</b> Operator
+#programming #bash #operators
+- <b>;</b> 
   -  you can run commands without creating a new line 
 ```shell
 echo "hello" ; echo "there"
@@ -58,6 +59,8 @@ This will always run
 -------
 
 # Find file in current directory recursively
+
+#script
 
 ```shell
 find . -type f -name "*.svg"
