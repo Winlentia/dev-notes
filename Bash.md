@@ -1,32 +1,32 @@
 # Logical operators 
 
 #programming #bash #operators
-- <b>;</b> 
+- **;**
   -  you can run commands without creating a new line 
-```shell
+``` shell
 echo "hello" ; echo "there"
 # this is same as 
 echo "hello"
 echo "there"
 ```
 
-- <b>&&</b> Operator
-  -  if the first command <b>succeseded</b> then run the second command
-```shell
+- **&&** Operator
+  -  if the first command **succeseded** then run the second command
+``` shell
 $ true && echo "Things went well"
 Things went well
 ```
 
--<b>||</b> Operator
-  - if the first command <b>failed</b> then run the second command
-```shell
+-**||** Operator
+  - if the first command **failed** then run the second command
+``` shell
 $ false || echo "Oops, fail"
 Oops, fail
 ```
 
-- <b> & </b> Operator 
-  - runs the first command and then <b>immeadiatly</b> runs the second command
-```shell
+- **&** Operator 
+  - runs the first command and then **immeadiatly** runs the second command
+``` shell
 $ sleep 5 & echo "all done" 
 [1] 45034
 all done 
@@ -34,13 +34,13 @@ all done
 [1]  + 45034 done       sleep 5
 ```
 
-```shell
+``` shell
 sleep 5 ; echo "all done" 
 # waits 5 seconds
 all done
 ```
 
-```shell
+``` shell
 $ false || echo "Oops, fail"
 Oops, fail
 

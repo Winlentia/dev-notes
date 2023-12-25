@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e9eddd2703c19535",
+        "id": "32485766ad357b2d",
         "type": "tabs",
         "children": [
           {
-            "id": "49ba1fa4f6b88312",
+            "id": "4b0d02a90593eaca",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -62,
-                  "y": -21,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Untitled.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Untitled.canvas",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -116,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Untitled.canvas"
-          }
+          "state": {}
         }
       }
     ],
@@ -134,8 +123,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49ba1fa4f6b88312",
+  "active": "4b0d02a90593eaca",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Vim.md",
     "readme.md",
     "gifs/sv1.gif",
@@ -143,7 +133,6 @@
     "Bash.md",
     "tmux.md",
     "macos-setup.md",
-    "bashscripts/generateSequencer.sh",
-    "Untitled.canvas"
+    "bashscripts/generateSequencer.sh"
   ]
 }

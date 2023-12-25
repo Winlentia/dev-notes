@@ -105,8 +105,9 @@ O -> insert mode with new upper-line
 
 p -> Paragraph
 
-also show tag <h1>this is sample header.</h1>
+also show tag 
 
+t -> ( cit ) changes inside tag like div tag etc
 ## Undo, redo:
 
 u for undo
@@ -138,12 +139,12 @@ guw -> makes the word all lower case
 
 ## run vim commands from bash
 
-```bash
+``` bash
 vim -c "normal! @p" filename -c wq
 ```
 this command opens the filename then in normal mode running the @p macro ( you can change here ) then quit the file with wq
 
-```bash
+``` bash
 vim -c "normal! A this is first line ending" filename
 ```
 

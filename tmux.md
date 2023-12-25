@@ -1,99 +1,89 @@
-<h1> Tmux </h1>
+# Tmux
 
-<h2> Sessions </h2>
+## Sessions 
 
-creating new session 
-```shell
+### creating new session 
+``` bash
 tmux new -s <my-session>
 ```
 
-list sessions 
-```shell
+### list sessions 
+``` shell
 tmux ls
 ```
 
-attach exist session
+### attach exist session
 
-```shell
+``` shell
 tmux a -t <my-session>
 ```
 
-deattach session <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>d</kbd>
-<br>
+### deattach session 
+`CTRL + b + d`
 
-
-kill session
-```shell
+### kill session
+``` shell
 tmux kill-session -a -t mysession
 ```
 
-kill all sessions
+### kill all sessions
 
-```shell
+``` shell
 tmux kill-server
 ```
 
-<h2> Window </h2>
+## Window 
 
-create new window <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>c</kbd>
-<br>
 
-next window <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>n</kbd>
-<br>
+### create new window 
+`CTRL + b + c`
 
-specific window <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>0</kbd>..<kbd>9</kbd>
-<br>
+### next window
+`CTRL + b + n`
 
-Rename window <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>,</kbd>
-<br>
+### specific window 
+`CTRL + b + 0..9`
 
-Reorder window, swap window number 2(src) and 1(dst)
+### Rename window
+`CTRL + b + ,`
 
-```bash
+### Reorder window, swap window number 2(src) and 1(dst)
+
+``` bash
 :swap-window -s 2 -t 1
 ```
 
-Move current window to the left by one position
+### Move current window to the left by one position
 
-```bash
+``` bash
 :swap-window -t -1
 ```
+## Pane
 
+### Split pane vertically 
+`CTRL + b + %`
 
-<h2> Pane </h2>
+### Split pane horizontally 
+`CTRL + b + "`
 
+### Close pane horizontally 
+`CTRL + b + X`
 
-Split pane vertically <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>%</kbd>
-<br>
-
-Split pane horizontally <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>"</kbd>
-<br>
-
-Close pane horizontally <br>
-<kbd>CTRL</kbd>+<kbd>b</kbd>+<kbd>X</kbd>
-<br>
 
 --------
 
 ## Fix tmux zsh-highlighting issue for mac
 
-tmux default TERM is screen：
+### tmux default TERM is screen：
 
-```bash
+``` bash
 $ env | grep TERM
 TERM=screen
 ```
 
-You can solve it like this:
+### You can solve it like this:
 
-```bash
+``` bash
 echo  "export TERM=xterm-256color" >> ~/.zshrc
 exec zsh
 ```
