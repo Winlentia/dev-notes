@@ -13,6 +13,7 @@ Spectacle ( https://www.spectacleapp.com )</br>
 Flycut ( https://github.com/TermiT/Flycut/releases )</br>
 MagicPref ( http://magicprefs.com )</br>
 iTerm2 ( https://iterm2.com/ ) </br>
+https://github.com/artginzburg/MiddleClick </br>
 ---
 
 ### Configurations
